@@ -4,7 +4,8 @@
   "description": "react pure component, designed for react native",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'text'"
+    "patch": "npmo version patch & npm run push",
+    "push": "npm publish & git push & git push --tag"
   },
   "repository": {
     "type": "git",
