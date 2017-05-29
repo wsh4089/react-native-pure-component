@@ -9,6 +9,7 @@ import {
 export default class PureImage extends PureComponent {
     render() {
         console.log('render PureImage');
+        
         return (
             <Image
                 {...this.props}
