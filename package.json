@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "patch": "npmo version patch & npm run push",
-    "push": "npm publish & git push & git push --tag | echo"
+    "push": "npm publish ; git push ;git push --tag | echo"
   },
   "repository": {
     "type": "git",
