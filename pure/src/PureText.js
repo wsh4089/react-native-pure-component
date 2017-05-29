@@ -8,6 +8,7 @@ import {
 
 export default class PureText extends PureComponent{
     render() {
+        console.log('render PureText');
         return (
             <Text
                 {...this.props}
