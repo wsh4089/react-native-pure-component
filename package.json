@@ -1,6 +1,6 @@
 {
   "name": "react-native-pure-component",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "react pure component, designed for react native",
   "main": "index.js",
   "scripts": {
